@@ -1,0 +1,51 @@
+
+#1. Escreva um script python que define duas variáveis do tipo inteiro (int) e atribui um valor positivo para elas. Imprima as duas variáveis.
+num1 = 10
+num2 = 15
+print(num1, num2)
+
+#2. Seja x = 2 + 4j, descubra qual é tipo associado a essa variável pelo interpretador.
+x = 2+4j
+print(type(x))
+
+#3. Experimente a inicialização de variáveis como segue:
+# i. urnas = {}
+# ii. sessao = {"escola municipal", 103}
+#descubra qual é o tipo da variável urnas e da variável sessao. Explique se necessário a razão dos tipos serem distintos.
+
+urnas = {}
+sessao = {"escola municipal",103}
+print(type(urnas))
+print(type(sessao))
+
+# 4. Nas definições de nomes de variáveis abaixo quais têm nomes válidos e quais são invalidos
+# i. ola = "mundo" - Válido
+# ii. _ola = "mundo" - Válido
+# iii. _1_ola = "mundo" - Válido
+# iv. 1_ola = "mundo" - Inválido, não pode iniciar com numeral
+# v. ola_1 = "mundo" - Válido
+# vi. meu mundo = "ola" - Inválido, não pode haver espaço
+# aponte as razões para os nomes inválidos, indicando o item e a razão da violação das regras de nomeação de variável.
+
+# 5. No seguinte comando de atribuição
+#i. casa, senha = "minha", "ola"
+#ii. casa, senha = "minha"
+#iii. casa = "minha"
+#Quais foram as atribuições que funcionaram e quais não funcionaram? Explique a razão dos problemas.
+
+#Resposta: i e iii funcionaram, ii não funcionou por ter faltado atribuir valor pra variável senha.
+
+# 6. Considere as seguintes operações matemáticas, e indique o resultado de cada uma:
+
+# i. (10 - 6)**2 = 16
+# ii. 10 - 6**2 = -26
+# iii. 10 - 3 // 2 = 9
+# iv. 10 - 3 / 2 = 8.5
+
+#7. Qual a importância de se criar ambiente virtuais para o desenvolvimentos de projetos usando Python?
+# Resposta: 
+
+# 8. Descubra e responda qual versão do python está instalado no seu ambiente de desenvolvimento. Que comando você usou para obter essa informação?
+# Resposta: versão: Python 3.11.4. Comando: python --version
+
+# 9. Uma tupla é um tipo imutável, portanto qualquer variável desse tipo pode ser alterada desde que os seus elementos sejam individualizados, como no código abaixo:
