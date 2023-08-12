@@ -43,7 +43,7 @@ print(type(sessao))
 # iv. 10 - 3 / 2 = 8.5
 
 #7. Qual a importância de se criar ambiente virtuais para o desenvolvimentos de projetos usando Python?
-# Resposta: 
+# Resposta: é importante para separar os projetos, assim um projeto não interfere nas dependências de outros projetos.
 
 # 8. Descubra e responda qual versão do python está instalado no seu ambiente de desenvolvimento. Que comando você usou para obter essa informação?
 # Resposta: versão: Python 3.11.4. Comando: python --version
@@ -62,5 +62,7 @@ numero = input()
 print(numero*3)
 
 se o valor 3(três) for informado como entrada e armazenado na variável número.
+
+Resposta: o código retorna o número informado 3 vezes
 
 11. Revise o código disponibilizado em src/primeiro.py. Em seguida altere o programa para que ele se torne generalista, i.e., aceite qualquer quantidade de notas que cada aluno pode ter.
